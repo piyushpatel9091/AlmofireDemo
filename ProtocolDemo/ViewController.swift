@@ -39,6 +39,8 @@ class ViewController: UIViewController,SyncManagerDelegate {
         sampleProtocol.delegate = self
         sampleProtocol.webServiceCall(url:completeURL , params: params, tag: 1001)
         
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
